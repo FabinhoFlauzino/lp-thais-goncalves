@@ -1,5 +1,7 @@
 .actionContainer {
   padding: 0rem 2rem 10rem;
+  max-width: 112rem;
+  margin: 0 auto;
   
   & .actionContainerContent {
     background: var(--primary-color);
