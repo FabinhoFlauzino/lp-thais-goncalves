@@ -2,6 +2,7 @@ import { Navbar } from "@/components/Navbar";
 import styles from "./page.module.css"
 import { Hero } from "@/components/Hero";
 import { About } from "@/components/About";
+import { CallToAction } from "@/components/CallToAction";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <Hero />
       </div>
       <About />
+      <CallToAction />
     </main>
   );
 }

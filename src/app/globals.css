@@ -8,7 +8,7 @@
 
   --primary-color: hsl(var(--hue), 100%, 26%);
 
-  --green: hsl(calc(var(--hue) - 17), 72%, 41%);
+  --green: hsl(calc(var(--hue) - 10), 72%, 41%);
   --green-light: hsl(calc(var(--hue) - 32), 23%, 89%);
   --green-light-2: hsl(var(--hue), 14%, 97%);
   --green-hover: hsl(calc(var(--hue) - 10), 100%, 14%);
