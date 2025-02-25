@@ -1,42 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+  --hue: 180;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+  --titles: hsl(calc(var(--hue) + 30), 11%, 15%);
+  --paragraph: hsl(calc(var(--hue) + 30), 9%, 31%);
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
+  --primary-color: hsl(var(--hue), 100%, 26%);
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  --green: hsl(calc(var(--hue) - 17), 72%, 41%);
+  --green-light: hsl(calc(var(--hue) - 32), 23%, 89%);
+  --green-light-2: hsl(var(--hue), 14%, 97%);
+  --green-hover: hsl(calc(var(--hue) - 10), 100%, 14%);
+
+  --white: hsl(0, 0%, 93%);
+  --bg-light: hsl(var(--hue), 14%, 97%);
+
+  font-size: 62.5%;
 }
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'DM Sans', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.6rem;
+  background: var(--bg-light);
+
+}
+
+/* Resets */
 a {
-  color: inherit;
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+section {
+  padding-block: 10rem;
+}
+
+/* Utilitários */
+
+.container {
+  width: 100%;
+  max-width: 112rem;
+  margin: 0 auto;
+  padding-inline: 2rem;
+}
+
+.btn {
+  border: none;
+  border-radius: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .6rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.4rem;
+  padding: 1.2rem 2.8rem;
+  text-decoration: none;
+  width: fit-content;
+  transition: background-color .2s ease-in-out;
+  cursor: pointer;
+}
+
+.btn-primary {
+  border: 1px solid var(--primary-color);
+  background-color: var(--primary-color);
+  color: var(--green-light);
+
+
+  &:hover {
+    background-color: transparent;
+    color: var(--primary-color);
+    opacity: .9;
   }
+}
+
+.btn-secondary {
+  border: 1px solid var(--green-light);
+  background-color: transparent;
+  color: var(--green-light);
+
+  &:hover {
+    background-color: var(--primary-color);
+    color: var(--green-light);
+    opacity: .9;
+  }
+}
+
+/* Cabeçalhos */
+
+h1 {
+  font-size: 3.4rem;
+  color: var(--titles);
+  margin-bottom: 2.4rem;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 3.9rem;
+  color: var(--titles);
+  margin-bottom: 6rem;
+}
+
+h3 {
+  font-size: 4.8rem;
+  line-height: 1.3;
+  color: var(--titles);
+  margin-bottom: .4rem;
+}
+
+h4 {
+  font-size: 1.4rem;
+  color: var(--primary-color);
+  margin-bottom: 1.6rem;
+  text-transform: uppercase;
 }
