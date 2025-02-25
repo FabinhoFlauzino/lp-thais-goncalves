@@ -4,7 +4,7 @@ import { MdCheckCircle } from "react-icons/md";
 
 export function Services() {
   return (
-    <section className={styles.services}>
+    <section className={styles.services} id="servicos">
       <div className={`container ${styles.servicesContainer}`}>
         <header>
           <h4>Confira alguns dos tratamentos que oferecemos</h4>

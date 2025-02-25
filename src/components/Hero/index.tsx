@@ -8,7 +8,7 @@ import logoComNome from '@/assets/logo-com-nome.png';
 
 export function Hero() {
   return (
-    <div className={styles.hero}>
+    <div className={styles.hero} id="inicio">
       <div className={`container ${styles.heroContainer}`}>
         <div className={styles.heroHeader}>
           <header>

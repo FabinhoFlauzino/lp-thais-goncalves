@@ -1,0 +1,47 @@
+.testimonialContainer {
+  & header {
+    text-align: center;
+
+    & h4 {
+      letter-spacing: .2rem;
+    }
+
+    & h2 {
+      font-size: 3rem;
+      line-height: 3.9rem;
+      color: var(--headline);
+      margin-bottom: 6rem;
+    }
+  }
+}
+
+.card {
+  padding: 2rem;
+  & div {
+    min-height: 28rem;
+    display: inline-flex !important;
+    padding: 3.2rem;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+
+    border-radius: 1rem;
+    background: #FFFAF1;
+    border: 1px solid #f7e4c2;
+
+    & h3 {
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 28px;
+      color: var(--green-hover);
+    }
+
+    & p {
+      font-weight: 400;
+      font-size: 1.6rem;
+      line-height: 1.5;
+      color: var(--paragraph);
+    }
+  }
+}
