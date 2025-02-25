@@ -1,16 +1,16 @@
 .navbar {
-  height: 7.2rem;
+  min-height: 7.2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-inline: 2rem;
-  background-color: var(--green-light);
-  -webkit-backdrop-filter: saturate(180%) blur(5px);
-  backdrop-filter: saturate(180%) blur(5px);
+  /* -webkit-backdrop-filter: saturate(180%) blur(5px);
+  backdrop-filter: saturate(180%) blur(5px); */
+  max-width: 1120px;
+  margin-inline: auto;
 
   & .logo {
-    font-size: 2.6rem;
-    color: var(--primary-color);
+    width: 20rem;
   }
 
   & nav {

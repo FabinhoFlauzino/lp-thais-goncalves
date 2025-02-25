@@ -1,4 +1,8 @@
 .page {
   overflow-x: hidden;
   position: relative;
+
+  .hero {
+    background-color: var(--green-light);
+  }
 }

@@ -51,6 +51,7 @@ a {
 
 img {
   max-width: 100%;
+  height: auto;
 }
 
 ul {
@@ -102,9 +103,22 @@ section {
 
 .btn-secondary {
   border: 1px solid var(--green-light);
-  background-color: transparent;
-  color: var(--green-light);
+  background-color: var(--green-light);
+  color: var(--primary-color);
 
+  &:hover {
+    background-color: var(--primary-color);
+    color: var(--green-light);
+    opacity: .9;
+  }
+}
+
+.btn-optional {
+  border: 1px solid var(--primary-color);
+  background-color: transparent;
+  color: var(--primary-color);
+  
+  
   &:hover {
     background-color: var(--primary-color);
     color: var(--green-light);

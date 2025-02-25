@@ -7,6 +7,8 @@ import { Button } from "../Buttom"
 import { MdClose, MdMenu, MdWhatsapp } from "react-icons/md"
 import { useState } from "react"
 import { ButtonFlutuante } from "../Buttom/ButtonFlutuante"
+import logo from "@/assets/logo-com-nome.png"
+import Image from "next/image"
 
 export function Navbar() {
   const [openMenu, setOpenMenu] = useState(false)
@@ -14,7 +16,9 @@ export function Navbar() {
   return (
     <>
       <header className={styles.navbar}>
-        <Link href="/" className={styles.logo}>Logo</Link>
+        <Link href="/" className={styles.logo}>
+          <Image src={logo} alt="Logo" />
+        </Link>
 
         <nav>
           <ul>
@@ -24,8 +28,7 @@ export function Navbar() {
           </ul>
         </nav>
 
-        <Button link="#contato" className={`btn btn-primary ${styles.btnHeader}`}>
-          <MdWhatsapp size={24} />
+        <Button link="#contato" className={`btn btn-optional ${styles.btnHeader}`}>
           Agende sua consulta
         </Button>
 
