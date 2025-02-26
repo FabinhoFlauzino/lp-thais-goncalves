@@ -66,6 +66,10 @@ section {
 
 /* Utilitários */
 
+.bg-beige {
+  background-color: var(--beige);
+}
+
 .container {
   width: 100%;
   max-width: 112rem;

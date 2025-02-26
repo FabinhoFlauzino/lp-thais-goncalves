@@ -1,5 +1,4 @@
 
-import { MdWhatsapp } from 'react-icons/md';
 import { Button } from '../Buttom';
 import styles from './styles.module.css';
 import Image from 'next/image';
@@ -23,7 +22,6 @@ export function Hero() {
               Oferecemos atendimento personalizado com Odontologia do Sono e laserterapia para melhorar sua saúde bucal, qualidade de sono e aliviar dores, tornando seus tratamentos mais eficazes e confortáveis.
             </p>
             <Button link="#contato" className='btn btn-primary'>
-              <MdWhatsapp size={24} />
               Agende Sua consulta
             </Button>
           </div>

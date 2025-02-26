@@ -2,6 +2,12 @@
   display: flex;
   flex-direction: column;
   gap: 6rem;
+  &:nth-child(2) {
+    background-color: var(--white);
+    margin-top: 4rem;
+    padding: 6rem;
+    border-radius: 1rem;
+  }
 
   & .aboutImage {
     & figure {
@@ -20,6 +26,10 @@
   }
 
   & .aboutContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
     & header {
       & h4 {
         letter-spacing: .2rem;
@@ -35,6 +45,10 @@
   }
 
   & .content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    margin-bottom: 2.4rem;
     & p {
       color: var(--paragraph);
       font-size: 16px;
@@ -53,7 +67,7 @@
       & figure {
         position: relative;
         width: 48rem;
-        height: 50rem;
+        height: 100%;
         overflow: hidden;
         border-radius: 1rem;
         box-shadow: 0 0 2rem rgba(0, 0, 0, .1);

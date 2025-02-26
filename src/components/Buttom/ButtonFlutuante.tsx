@@ -13,7 +13,7 @@ export function ButtonFlutuante({ children, className, ...rest }: Props) {
       {...rest}
       onClick={() =>
         window.open(
-          "https://api.whatsapp.com/send?phone=5514998003555&text=Estou%20querendo%20saber%20mais%20sobre%20o%20Cuidado%20Odontológico",
+          "https://wa.me/5514998003555?text=Gostaria%20de%20agendar%20um%20hora%CC%81rio%20ou%20consulta%20com%C2%A0a%C2%A0Dra.%C2%A0Thai%CC%81s",
           "_blank"
         )
       }

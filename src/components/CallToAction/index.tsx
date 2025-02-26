@@ -1,4 +1,3 @@
-import { MdWhatsapp } from "react-icons/md";
 import { Button } from "../Buttom";
 import styles from "./styles.module.css";
 
@@ -12,7 +11,6 @@ export function CallToAction() {
         </header>
 
           <Button link="#contato" className="btn btn-secondary">
-            <MdWhatsapp size={24}/>
             Agendar consulta
           </Button>
       </div>

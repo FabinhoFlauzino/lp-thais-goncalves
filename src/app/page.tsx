@@ -9,6 +9,7 @@ import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
 import { ButtonFlutuante } from "@/components/Buttom/ButtonFlutuante";
 import { SiWhatsapp } from "react-icons/si";
+import { Partners } from "@/components/Partners";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <About />
         <CallToAction />
         <Services />
+        <Partners />
         <Testimonials />
         <CallToAction />
         <Contact />

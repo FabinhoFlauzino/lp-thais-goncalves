@@ -30,6 +30,10 @@
     background: var(--beige);
     border: 1px solid var(--beige-hover);
 
+    & svg {
+      fill: var(--primary-color);
+    }
+
     & h3 {
       font-size: 16px;
       font-weight: 700;

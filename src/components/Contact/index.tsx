@@ -7,7 +7,7 @@ import { ButtonFlutuante } from "../Buttom/ButtonFlutuante"
 
 export function Contact() {
   return (
-    <section id="contato">
+    <section id="contato" className="bg-beige">
       <div className={`container ${styles.contactContainer}`}>
         <div className={styles.contactContent}>
           <header>
