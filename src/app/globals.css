@@ -12,6 +12,8 @@
   --green-light: hsl(calc(var(--hue) - 32), 23%, 89%);
   --green-light-2: hsl(var(--hue), 14%, 97%);
   --green-hover: hsl(calc(var(--hue) - 10), 100%, 14%);
+  --beige: hsl(calc(var(--hue) - 141), 100%, 97%);
+  --beige-hover: hsl(calc(var(--hue) - 142), 77%, 86%);
 
   --white: hsl(0, 0%, 93%);
   --bg-light: hsl(var(--hue), 14%, 97%);

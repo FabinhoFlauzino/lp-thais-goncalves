@@ -43,7 +43,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 991px) {
   .aboutContainer {
     display: grid;
     grid-template-columns: 48rem 1fr;

@@ -6,20 +6,24 @@ import { CallToAction } from "@/components/CallToAction";
 import { Services } from "@/components/Services";
 import { Testimonials } from "@/components/Testimonials";
 import { Contact } from "@/components/Contact";
+import { Footer } from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className={styles.page}>
-      <div className={`${styles.hero}`}>
-        <Navbar />
-        <Hero />
-      </div>
-      <About />
-      <CallToAction />
-      <Services />
-      <Testimonials />
-      <CallToAction />
-      <Contact />
-    </main>
+    <>
+      <main className={styles.page}>
+        <div className={`${styles.hero}`}>
+          <Navbar />
+          <Hero />
+        </div>
+        <About />
+        <CallToAction />
+        <Services />
+        <Testimonials />
+        <CallToAction />
+        <Contact />
+      </main>
+      <Footer />
+    </>
   );
 }
