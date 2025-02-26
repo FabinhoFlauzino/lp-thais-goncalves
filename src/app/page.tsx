@@ -7,6 +7,8 @@ import { Services } from "@/components/Services";
 import { Testimonials } from "@/components/Testimonials";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
+import { ButtonFlutuante } from "@/components/Buttom/ButtonFlutuante";
+import { SiWhatsapp } from "react-icons/si";
 
 export default function Home() {
   return (
@@ -24,6 +26,9 @@ export default function Home() {
         <Contact />
       </main>
       <Footer />
+      <ButtonFlutuante className="btn-flutuante" aria-label="Botão de WhatsApp">
+        <SiWhatsapp />
+      </ButtonFlutuante>
     </>
   );
 }

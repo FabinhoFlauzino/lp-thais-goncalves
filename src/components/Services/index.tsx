@@ -7,7 +7,7 @@ export function Services() {
     <section className={styles.services} id="servicos">
       <div className={`container ${styles.servicesContainer}`}>
         <header>
-          <h4>Confira alguns dos tratamentos que oferecemos</h4>
+          <p>Confira alguns dos tratamentos que oferecemos</p>
           <h2>Como podemos ajudá-lo a se sentir melhor?</h2>
         </header>
 

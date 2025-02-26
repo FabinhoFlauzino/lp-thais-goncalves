@@ -20,12 +20,12 @@ export function Footer() {
 
             <ul className={styles.redesSociais}>
               <li>
-                <Link href="https://www.facebook.com/dra.thagoncalves" target="_blank">
+                <Link href="https://www.facebook.com/dra.thagoncalves" target="_blank" aria-label="Facebook">
                   <SiFacebook size={30} />
                 </Link>
               </li>
               <li>
-                <Link href="https://www.instagram.com/dra_thagoncalves" target="_blank">
+                <Link href="https://www.instagram.com/dra_thagoncalves" target="_blank" aria-label="Instagram">
                   <SiInstagram size={30} />
                 </Link>
               </li>

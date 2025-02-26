@@ -13,7 +13,7 @@ export function About() {
         </div>
         <div className={styles.aboutContent}>
           <header>
-            <h4>Sobre nós</h4>
+            <p>Sobre nós</p>
             <h2>Entenda quem somos e por que existimos</h2>
           </header>
 

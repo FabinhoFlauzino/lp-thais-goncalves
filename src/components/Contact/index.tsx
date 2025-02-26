@@ -11,7 +11,7 @@ export function Contact() {
       <div className={`container ${styles.contactContainer}`}>
         <div className={styles.contactContent}>
           <header>
-            <h4>Nossos contatos</h4>
+            <p>Nossos contatos</p>
             <h2>Entre em contato com a gente!</h2>
           </header>
 
@@ -45,7 +45,7 @@ export function Contact() {
           </div>
         </div>
         <div className={styles.contactImage}>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4414.991088805239!2d-49.9476455!3d-22.2177844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bfd7c298a18981%3A0x483ed106b5ee200b!2sDra.%20Tha%C3%ADs%20F.%20In%C3%A1cio%20Gon%C3%A7alves%20-%20Odontologia%20do%20Sono!5e1!3m2!1spt-BR!2sbr!4v1740528946326!5m2!1spt-BR!2sbr" allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4414.991088805239!2d-49.9476455!3d-22.2177844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bfd7c298a18981%3A0x483ed106b5ee200b!2sDra.%20Tha%C3%ADs%20F.%20In%C3%A1cio%20Gon%C3%A7alves%20-%20Odontologia%20do%20Sono!5e1!3m2!1spt-BR!2sbr!4v1740528946326!5m2!1spt-BR!2sbr" allowFullScreen loading="lazy" title="Localização do Endereço" referrerPolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </section>

@@ -15,7 +15,7 @@
 
     & header {
       text-align: center;
-      & h4 {
+      & p {
         color: var(--green-hover);
       }
 
