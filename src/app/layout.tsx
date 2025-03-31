@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Dra. Thaís Gonçalves",
     description: "Cirurgiã-dentista apaixonada por transformar sorrisos e promover saúde com um olhar humanizado e inovador.",
-    url: "https://www.seusite.com.br",
+    url: "https://www.drathaisgoncalvesoficial.com.br",
     siteName: "Dra. Thaís Gonçalves",
     images: [
       {
